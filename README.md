@@ -9,7 +9,8 @@ This project implements a Pilot Light disaster recovery architecture on AWS usin
 Unlike traditional DR solutions that require manual intervention, this implementation uses Route 53 health checks and load balancers to automatically detect failures and trigger failover to the disaster recovery region.
 
 ## Architecture
-![Disaster_recovery_arch drawio](https://github.com/user-attachments/assets/a436a419-a647-44f5-9f0e-dff3f1d06e41)
+
+![Disaster_recovery_arch drawio (2)](https://github.com/user-attachments/assets/4d0dbe6a-9d52-4938-bcc4-25685c01b458)
 
 
 
