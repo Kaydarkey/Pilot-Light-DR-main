@@ -1,0 +1,8 @@
+./primary/.terraform/
+primary/.terraform/
+
+./dr/.terraform/
+dr/.terraform/
+
+.env
+/.env
