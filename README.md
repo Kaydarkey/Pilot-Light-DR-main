@@ -86,12 +86,12 @@ Edit `variables.tf` to set your primary and DR regions:
 ```hcl
 variable "primary_region" {
   description = "The primary AWS region"
-  default     = "us-west-2"
+  default     = "eu-west-1"
 }
 
 variable "dr_region" {
   description = "The disaster recovery AWS region"
-  default     = "us-east-1"
+  default     = "eu-central-1"
 }
 ```
 
