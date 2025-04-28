@@ -6,3 +6,14 @@ dr/.terraform/
 
 .env
 /.env
+
+.terraform.tfstate
+.terraform.tfstate.backup
+
+.dr/errored.tfstate
+.dr/errored.tfstate.backup
+
+.primary/terraform.tfvars
+.dr/terraform.tfvars
+
+.dr/errored.tfstate
