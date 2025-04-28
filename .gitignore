@@ -1,19 +1,18 @@
-./primary/.terraform/
+# Ignore Terraform working directories
 primary/.terraform/
-
-./dr/.terraform/
 dr/.terraform/
 
+# Ignore environment files
 .env
-/.env
 
-.terraform.tfstate
-.terraform.tfstate.backup
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
 
-.dr/errored.tfstate
-.dr/errored.tfstate.backup
+# Ignore errored state files
+dr/errored.tfstate
+dr/errored.tfstate.backup
 
-.primary/terraform.tfvars
-.dr/terraform.tfvars
-
-.dr/errored.tfstate
+# Ignore Terraform variable files
+primary/terraform.tfvars
+dr/terraform.tfvars
